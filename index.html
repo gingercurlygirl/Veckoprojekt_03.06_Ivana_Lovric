@@ -1,0 +1,52 @@
+<DOCTYPE html>
+    <html lang="eng">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Calculator </title>
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="script.js"></script>
+    </head>
+
+    <body>
+        <main>
+            <h1> Calculator </h1>
+            <section class="calculator">
+                <button class="bsqrt op" disabled title="Square root">√x</button>
+                <button class="bsq op" disabled title="Squared">x^2</button>
+                <button class="bclear"> Clear </button>
+                <button class="badd op" disabled> + </button>
+                <button class="b digit"> 7 </button>
+                <button class="b digit"> 8 </button>
+                <button class="b digit"> 9 </button>
+                <button class="bsub op" disabled> - </button>
+                <button class="b digit"> 4 </button>
+                <button class="b digit"> 5 </button>
+                <button class="b digit"> 6 </button>
+                <button class="bmul op" disabled> * </button>
+                <button class="b digit"> 1 </button>
+                <button class="b digit"> 2 </button>
+                <button class="b digit"> 3 </button>
+                <button class="bdiv op" disabled> / </button>
+
+            </section>
+            <section class="output">
+                <p>
+                    <span>Result:</span>
+                    <code id="result"> 0 </code>
+                </p>
+                <p>
+                    <span>You selected:</span>
+                    <code id="input">  </code>
+                </p>
+            </section>
+            <section>
+                <h2> History </h2>
+                <ol class="history-list"></ol>
+            </section>
+
+        </main>
+    </body>
+
+    </html>
